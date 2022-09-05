@@ -9,16 +9,8 @@ public class InClassExercises {
             upperHex();
             line();
 
-            for (int line = 1; line <= 5; line++) { //modified code on slide 27
-                for (int j = 1; j <= (-1 * line + 5); j++) {
-                    System.out.print(".");
-                }
-                System.out.print(line);
-                for (int k = 1; k < line; k++) {
-                    System.out.print(".");
-                }
-                System.out.println();
-            }
+            nums();
+
             top();
             upper();
             lower();
@@ -85,6 +77,19 @@ public class InClassExercises {
                     System.out.print(" ");
                 }
                 System.out.println("|");
+            }
+        }
+
+        public static void nums() {
+            for (int line = 1; line <= 5; line++) { //modified code on slide 27
+                for (int j = 1; j <= (-1 * line + 5); j++) {
+                    System.out.print(".");
+                }
+                System.out.print(line);
+                for (int k = 1; k < line; k++) {
+                    System.out.print(".");
+                }
+                System.out.println();
             }
         }
 
